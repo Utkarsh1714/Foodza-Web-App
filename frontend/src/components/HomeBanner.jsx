@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../assets/header/offer.svg";
+import Banner from "../assets/header/Offer.svg";
 
 const HomeBanner = () => {
   return (
