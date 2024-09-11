@@ -1,0 +1,18 @@
+/* Add these styles in your CSS file */
+.transition-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.transition-element {
+  position: absolute;
+  width: 100%;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.transition-element.active {
+  transform: translateY(0);
+  opacity: 1;
+}
